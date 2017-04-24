@@ -1,0 +1,58 @@
+<!doctype html>
+	<head>
+		<title>Contact</title>
+		<meta name "viewport" content="width=device-width, initial-scale=1">
+		<meta charset="uft-8">
+		<link rel="stylesheet" href="./css/indexCSS.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<script src="./JS/contactJS.js"></script>
+	</head>
+	
+	<body>
+		<div id="head2">
+			<div class="header">
+					<img class="logo" src="./images/pitt.png"/>
+					
+					<nav>
+						<a class="navbar" href="index.html">Home</a>
+						<a class="navbar" href="aboutme.html">About Me</a>
+						<a class="navbar" href="contact.html">Contact</a>
+					</nav>
+				</div>
+				
+				<span>
+					<h1 class="contact">Contact</h1>
+				</span>
+		</div>
+		
+		<footer>
+			<div id="foot">
+				<div class="social">
+						<h3>Social Media</h3>
+						<a class="social youtube" href="http://youtube.com"> <img src="./images/youtube.png"></a>
+						<a class="social facebook" href="http://facebook.com"> <img src="./images/facebook.png"></a>
+						<a class="social twitter" href="http://twitter.com"> <img src="./images/twitter.png"></a>
+						
+						<div class="contact">
+							<h4>Contact Me</h4>
+							<form class="contact" name="form" method="post" action="./PHP/form.php">
+								<label for="name">Name</label><br>
+								<input class="text" name="name" id="name" type="text"/>
+								<br><br>
+								
+								<label for="email">Email</label><br>
+								<input class="text" name="email" id="email" type="text"/>
+								<br><br>
+								
+								<label for="message">Message</label><br>
+								<textarea class="message" name="message" id="message"/></textarea>
+								<br><br>
+								
+								<input class="submit" name="submit" type="submit" value="Submit" onclick="submitFunction()"/>
+							</form>
+						</div>
+					</div>
+				</div>
+			</footer>
+	</body>
+</html>

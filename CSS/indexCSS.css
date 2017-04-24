@@ -1,0 +1,219 @@
+/* Shawn Banish - Project 1
+	Quick CSS Note - I played around with keeping some headers, so where it says font size is 0, I set it to that because
+	I thought that my pages looked better without the headers, but I left it that way so that I could still change it at a
+	later date in case if I chagne my mind since this will be the website I use for a professional portfolio :)
+ */
+
+body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main{
+	height: 700px;
+	background-image: url(../images/PittBBall.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+@media screen and (min-width: 1000px){
+		#container{
+		height: 700px;
+		width: 1000px;
+		margin: 0 auto;
+	}
+	
+}
+
+#container{
+	height: 700px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header{
+	margin-top: 0px;
+	width: 100%;
+	fixed;
+}
+
+.logo{
+	float: left;
+	margin-top: 10px;
+}
+
+nav{
+	float: right;
+	margin-top: 26px;
+	margin-right: 20px;
+}
+
+.navbar{
+	color: white;
+	font-size: 20px;
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+.navbar:hover{
+	text-decoration: underline;
+}
+
+span{
+	width: 100%;
+}
+
+h1{
+	font-size: 0px;
+	color: white;
+	text-align: center;
+	clear: both;
+	padding-top: 25px;
+}
+
+h2{
+	font-size: 0px;
+	color: white;
+	text-align: center;
+	clear: both;
+	margin-top: -70px;
+}
+
+/* Header Section  About Me */
+#head{
+	width: 100%;
+	height: 350px;
+	background-image: url(../images/pncpark.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about{
+	padding-top: 65px;
+}
+
+.txtAbout{
+	padding-top: 20px;
+	padding-left: 250px;
+	
+}
+
+.resume{
+	padding-top: 30px;
+	padding-left: 325px;
+	font-size: 30px;
+	
+}
+
+/* Contact Section */
+footer{
+	width: 100%;
+	height: 500px;
+	background-color: lightgray;
+	
+}
+
+#foot{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+h3{
+	color: black;
+	padding-left: 30px;
+}
+
+
+h4{
+	color: black;
+	padding-left: 80px;
+}
+
+div.social{
+	float: left;
+	margin-top: 20px;	
+}
+
+a.social{
+	margin-right: 15px;
+}
+
+div.contact{
+	float: right;
+	padding-left: 200px;
+	margin-right: 0px;
+}
+
+label{
+	color: black;
+}
+
+input.text{
+	height: 30px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+}
+
+textarea.message{
+	height: 100px;
+	width: 250px;
+	border-radius: 3px;
+	border: none;
+}
+
+input.submit{
+	width: 60px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	border-radius: 3px;
+	border: none;
+}
+
+input.submit:hover{
+	text-decoration: underline;
+}
+
+#head2{
+	width: 100%;
+	height: 350px;
+	background-image: url(../images/mtwash.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* About Me Section */
+
+p.name{
+	color: gray;
+	font-size: 20px;
+}
+.one {
+	margin-top: 46px;
+}
+
+.two {
+	margin-top: 46px;
+}
+
+.three{
+	margin-top: 46px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
